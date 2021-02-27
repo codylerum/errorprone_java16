@@ -23,4 +23,4 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
       - name: Compile and Package
-        run: mvn package -P errorprone
+        run: mvn package -P errorprone,bootable
