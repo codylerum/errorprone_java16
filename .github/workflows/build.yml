@@ -22,5 +22,5 @@ jobs:
           path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
-      - name: Run Integration Tests
+      - name: Compile and Package
         run: mvn package -P errorprone
