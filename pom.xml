@@ -78,7 +78,7 @@
 						<configuration>
 							<release>${version.java}</release>
 							<showWarnings>true</showWarnings>
-							<failOnWarning>true</failOnWarning>
+							<failOnWarning>false</failOnWarning>
 							<maxmem>2048m</maxmem>
 							<compilerArgs>
 								<arg>-XDcompilePolicy=simple</arg>
