@@ -2,7 +2,7 @@
 		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.demo</groupId>
-	<artifactId>errorprone-java16</artifactId>
+	<artifactId>errorprone-jpa</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
 
@@ -10,7 +10,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.build.timestamp.format>yyyyMMdd'T'HHmmss</maven.build.timestamp.format>
-		<version.java>15</version.java>
+		<version.java>11</version.java>
 		<version.compiler.plugin>3.8.1</version.compiler.plugin>
 		<version.war.plugin>3.2.2</version.war.plugin>
 		<version.errorprone>2.5.1</version.errorprone>
@@ -126,7 +126,7 @@
 					<plugin>
 						<groupId>org.wildfly.plugins</groupId>
 						<artifactId>wildfly-jar-maven-plugin</artifactId>
-						<version>4.0.0.Final</version>
+						<version>4.0.3.Final</version>
 						<configuration>
 							<feature-packs>
 								<feature-pack>
