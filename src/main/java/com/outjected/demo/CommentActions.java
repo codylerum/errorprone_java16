@@ -1,4 +1,4 @@
-package demo;
+package com.outjected.demo;
 
 import java.util.List;
 

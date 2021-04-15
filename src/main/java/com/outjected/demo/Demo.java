@@ -1,4 +1,4 @@
-package demo;
+package com.outjected.demo;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;

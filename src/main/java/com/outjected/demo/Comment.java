@@ -1,4 +1,4 @@
-package demo;
+package com.outjected.demo;
 
 import java.io.Serializable;
 
@@ -8,7 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class EventLog implements Serializable {
+public class Comment implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -16,7 +16,7 @@ public class EventLog implements Serializable {
     private String message;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long getId() {
         return id;
     }

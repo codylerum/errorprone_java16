@@ -1,4 +1,4 @@
-package demo;
+package com.outjected.demo;
 
 public enum CommentType {
 
