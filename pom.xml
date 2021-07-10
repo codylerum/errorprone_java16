@@ -13,7 +13,7 @@
 		<version.java>11</version.java>
 		<version.compiler.plugin>3.8.1</version.compiler.plugin>
 		<version.war.plugin>3.2.2</version.war.plugin>
-		<version.errorprone>2.5.1</version.errorprone>
+		<version.errorprone>2.7.1</version.errorprone>
 		<version.hibernate>5.3.20.Final</version.hibernate>
 		<version.wildfly>23.0.0.Final</version.wildfly>
 	</properties>
