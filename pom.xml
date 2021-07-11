@@ -86,6 +86,7 @@
 							<fork>true</fork>
 							<compilerArgs>
 								<arg>-parameters</arg>
+								<arg>-Xlog:class+load=info</arg>
 								<arg>-XDcompilePolicy=simple</arg>
 								<arg>-Xplugin:ErrorProne -Xep:UnusedMethod:OFF -Xep:JavaTimeDefaultTimeZone:OFF -Xep:ObjectEqualsForPrimitives:OFF</arg>
 								<arg>-J--add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</arg>
